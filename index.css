@@ -12,6 +12,12 @@ body {
     text-align: center;
 }
 
+.header{
+    font-family: 'Literata', serif;
+    color:black;
+    text-align: center;
+}
+
 .title{
     font-family: 'DM Serif Text', serif;
     color:white;
@@ -19,8 +25,11 @@ body {
     text-align: center;
 }
 
-.header{
-    font-family: 'Literata', serif;
-    color:black;
-    text-align: center;
+div{
+  background-color: lightblue;
+  width: 350px
+  border: 10px lightblue;
+  padding: 20px
+  margin: 20px
+
 }
