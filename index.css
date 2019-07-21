@@ -1,0 +1,26 @@
+body {
+  background-color: #F4E288;
+}
+
+
+
+
+.text{
+    font-family: 'DM Serif Text', serif;
+    color:black;
+    font-size: 36px;
+    text-align: center;
+}
+
+.title{
+    font-family: 'DM Serif Text', serif;
+    color:white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.header{
+    font-family: 'Literata', serif;
+    color:black;
+    text-align: center;
+}
