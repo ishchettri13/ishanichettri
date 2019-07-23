@@ -1,32 +1,68 @@
 body {
-  background-color: #45EAD8;
+  background-color: #F0AC67;
 }
 
 
 .header{
+
     font-family: 'Literata', serif;
     color:black;
     text-align: center;
-    font-size: 96px;
-    margin-bottom: 5px;
+    font-size: 65px;
+    margin-top: 1px;
+    margin-bottom: 0px;
 }
 
 .header:hover{
-  color: lightblue;
+  color: white;
+}
+
+.box{
+  background-color: #F0AC67;
+  width: 600px;
+  height: 120px;
+  border: 10px solid #935A28;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: auto;
 }
 
 .title{
     font-family: 'DM Serif Text', serif;
-    color:white;
-    font-size: 20px;
+    color: white;
+    font-size: 30px;
     text-align: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
 
+hr{
+  width: 25%;
+  margin-top: 10px;
+  height: 2px;
+  background-color: black;
+  border-color: black;
+  margin: auto;
 }
 
 .intro{
   width: 300px;
-  height: 300px;
-  border: 5px solid lightblue;
+  height: 400px;
+  border: 3px solid white;
   padding: 30px;
-  margin: 20px;
+  margin: 10px;
+  position: fixed;
+  top: 270px;
+}
+
+.icons{
+  color: #F9C77A;
+  text-align: center;
+  margin-top: 10px;
+  text-shadow: 4px 4px 6px black;
+}
+
+.mail{
+  text-align: center;
 }
