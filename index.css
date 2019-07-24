@@ -63,6 +63,10 @@ hr{
   text-shadow: 4px 4px 6px black;
 }
 
-.mail{
-  text-align: center;
+.icons:hover{
+  color: #CA9748;
+}
+
+.columns{
+  column-count: 3;
 }
