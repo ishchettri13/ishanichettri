@@ -1,12 +1,12 @@
 body {
-  background-color: #F0AC67;
+  background-color: #ABC8EC;
   margin: 0;
   padding: 0;
 }
 
 .header{
     font-family: 'Literata', serif;
-    color:black;
+    color: white;
     text-align: center;
     font-size: 65px;
     margin-top: 1px;
@@ -14,17 +14,14 @@ body {
 }
 
 .header:hover{
-  color: white;
+  color: #10468C;
 }
 
 .box{
-  background-color: #F0AC67;
   width: 600px;
   height: 120px;
-  border: 10px solid #935A28;
+  border: 10px solid #000099;
   padding: 10px;
-  margin-top: 5px;
-  margin-bottom: 5px;
   margin: auto;
 }
 
@@ -37,11 +34,15 @@ body {
     margin-bottom: 5px;
 }
 
+.title:hover{
+  color: #006699;
+}
+
 hr{
   width: 25%;
   margin-top: 10px;
   height: 2px;
-  background-color: black;
+  background-color: #000099;
   border-color: black;
   margin: auto;
 }
@@ -49,6 +50,7 @@ hr{
 .intro{
   width: 275px;
   height: 400px;
+  background-color: white;
   border: 3px solid white;
   padding: 30px;
   margin: 10px;
@@ -57,20 +59,36 @@ hr{
   left: 50px;
 }
 
-.icons{
-  color: #F9C77A;
-  text-align: center;
-  margin-top: 10px;
-  text-shadow: 4px 4px 6px black;
+.introtext{
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 16px;
+  color: #000000;
+  margin-top: 25px;
+  text-align: justify;
 }
 
-.icons:hover{
-  color: #CA9748;
+.icons{
+  color: #D1E3FA;
+  text-shadow: 4px 4px white;
+  margin-top: 10px;
+}
+
+.cloud{
+  float: left;
+  position:absolute;
+  left: 675px;
+  top: 100px auto;
+}
+
+.mail{
+  float: left;
+  position:absolute;
+  left: 725px;
+  top: 225px auto;
 }
 
 .night{
   border-radius: 150%;
-  border-color: solid black;
   width: 180px;
   height: 180px;
   position: absolute;
@@ -80,7 +98,6 @@ hr{
 
 .tokyoghoul{
   border-radius: 150%;
-  border-color: solid black;
   width: 215px;
   height: 215px;
   position: absolute;
@@ -90,7 +107,6 @@ hr{
 
 .aesthetic{
   border-radius: 150%;
-  border-color: solid black;
   width: 160px;
   height: 160px;
   position: absolute;
@@ -98,22 +114,39 @@ hr{
   left: 260px;
 }
 
-.scroll{
-  overflow: scroll;
+.move{
+  position: absolute;
+  top: 15px;
 }
 
-::-webkit-scrollbar {
-  width: 10px;
+.coffeeshop{
+  width: 25%;
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 250px;
+  left: 1015px;
+  border: 5px solid white;
+  border-width: thin;
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
+a.maillink :link{
+  color: #D1E3FA
 }
 
-::-webkit-scrollbar-thumb {
-  background: #888;
+a.maillink :hover{
+  color: #DCD1FA;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+li {
+  display: inline;
 }
