@@ -64,7 +64,7 @@ hr{
   font-size: 16px;
   color: #000000;
   margin-top: 25px;
-  text-align: justify;
+  text-align: left;
 }
 
 .icons{
@@ -130,23 +130,29 @@ hr{
   border-width: thin;
 }
 
-a.maillink :link{
-  color: #D1E3FA
-}
-
-a.maillink :hover{
+a.maillink:link{
   color: #DCD1FA;
 }
 
-
+a.maillink:hover{
+  color: #D9FCF8;
+}
 
 ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-
+  overflow: hidden;
 }
 
 li {
-  display: inline;
+  float: left;
+  display: block;
+}
+
+li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
