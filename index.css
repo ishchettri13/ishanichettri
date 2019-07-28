@@ -14,13 +14,13 @@ body {
 }
 
 .header:hover{
-  color: #10468C;
+  color: #C0E4FF;
 }
 
 .box{
   width: 600px;
   height: 120px;
-  border: 10px solid #000099;
+  border: 10px solid #001E85;
   padding: 10px;
   margin: auto;
 }
@@ -35,14 +35,14 @@ body {
 }
 
 .title:hover{
-  color: #006699;
+  color: #CC9B65;
 }
 
 hr{
   width: 25%;
   margin-top: 10px;
-  height: 2px;
-  background-color: #000099;
+  height: 4px;
+  background-color: #001E85;
   border-color: black;
   margin: auto;
 }
@@ -50,8 +50,8 @@ hr{
 .intro{
   width: 275px;
   height: 400px;
-  background-color: white;
-  border: 3px solid white;
+  background-color: #F6F7F8;
+  border: 3px solid #F6F7F8;
   padding: 30px;
   margin: 10px;
   position: absolute;
@@ -68,23 +68,24 @@ hr{
 }
 
 .icons{
-  color: #D1E3FA;
-  text-shadow: 4px 4px white;
+  color: #DFD3FF;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 4px #EAEAEA;
 }
 
 .cloud{
   float: left;
   position:absolute;
-  left: 675px;
-  top: 100px auto;
+  margin-top: 65px;
 }
 
 .mail{
   float: left;
   position:absolute;
-  left: 725px;
-  top: 225px auto;
+  margin-top: 65px;
+  margin-left: 50px;
 }
 
 .night{
@@ -130,12 +131,17 @@ hr{
   border-width: thin;
 }
 
-a.maillink:link{
-  color: #DCD1FA;
+.navigation {
+  display: flex;
+  justify-content: center;
 }
 
-a.maillink:hover{
-  color: #D9FCF8;
+.icon {
+  color: #DFD3FF;
+}
+
+.icon:hover {
+    color: #D9FCF8;
 }
 
 ul{
@@ -151,8 +157,13 @@ li {
 }
 
 li a {
-  color: black;
+  color: #DFD3FF;
+  font-family: 'Francois One', sans-serif;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+li a:hover{
+  background-color: black;
 }
