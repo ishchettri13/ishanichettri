@@ -1,0 +1,48 @@
+body {
+  background-color: #ABC8EC;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+    font-family: 'Literata', serif;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.header:hover{
+  color: #C0E4FF;
+}
+
+.box{
+  width: 600px;
+  height: 120px;
+  border: 10px solid #001E85;
+  padding: 10px;
+  margin: auto;
+}
+
+.title{
+    font-family: 'DM Serif Text', serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.title:hover{
+  color: #CC9B65;
+}
+
+hr{
+  width: 25%;
+  margin-top: 10px;
+  height: 4px;
+  background-color: #001E85;
+  border-color: black;
+  margin: auto;
+}

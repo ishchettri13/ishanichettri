@@ -4,6 +4,12 @@ body {
   padding: 0;
 }
 
+.container{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
 .header{
     font-family: 'Literata', serif;
     color: white;
@@ -25,7 +31,7 @@ body {
   margin: auto;
 }
 
-.title{
+.subtitle{
     font-family: 'DM Serif Text', serif;
     color: white;
     font-size: 30px;
@@ -34,7 +40,7 @@ body {
     margin-bottom: 5px;
 }
 
-.title:hover{
+.subtitle:hover{
   color: #CC9B65;
 }
 
@@ -47,29 +53,60 @@ hr{
   margin: auto;
 }
 
-.intro{
-  width: 275px;
-  height: 400px;
+.container{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box2{
+  width: 500px;
+  height: 700px;
   background-color: #F6F7F8;
   border: 3px solid #F6F7F8;
-  padding: 30px;
+  padding: 15px;
+  margin: 10px;
+  position: absolute;
+  top: 250px;
+  left: 450px;
+}
+
+.header2{
+
+}
+
+.intro{
+  width: 300px;
+  height: 400px;
+  background-color: #F6F7F8;
+  border: 3px solid black;
+  padding: 15px;
   margin: 10px;
   position: absolute;
   top: 650px;
-  left: 50px;
+  left: 65px;
+}
+
+.introheader{
+  font-family: 'Palanquin', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  font-style: italic;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .introtext{
   font-family: 'Nanum Myeongjo', serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000;
-  margin-top: 25px;
+  margin: 5px;
   text-align: left;
 }
 
 .icons{
   color: #DFD3FF;
-  margin-top: 10px;
+  margin-bottom: 5px;
   display: flex;
   justify-content: center;
   text-shadow: 4px 4px #EAEAEA;
@@ -87,6 +124,8 @@ hr{
   margin-top: 65px;
   margin-left: 50px;
 }
+
+
 
 .night{
   border-radius: 150%;
@@ -131,16 +170,16 @@ hr{
   border-width: thin;
 }
 
-.navigation {
+.navigation{
   display: flex;
   justify-content: center;
 }
 
-.icon {
+.icon{
   color: #DFD3FF;
 }
 
-.icon:hover {
+.icon:hover{
     color: #D9FCF8;
 }
 
@@ -151,19 +190,20 @@ ul{
   overflow: hidden;
 }
 
-li {
+li{
   float: left;
   display: block;
 }
 
-li a {
+li a{
   color: #DFD3FF;
   font-family: 'Francois One', sans-serif;
   text-align: center;
-  padding: 14px 16px;
+  font-size: 20px;
+  padding: 5px 15px;
   text-decoration: none;
 }
 
 li a:hover{
-  background-color: black;
+  color: black;
 }
